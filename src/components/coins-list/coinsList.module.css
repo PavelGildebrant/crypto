@@ -1,0 +1,29 @@
+.coinList{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.coinItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    background-color: aliceblue;
+    background-repeat: 12px;
+
+}
+.coinItemLogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.coinItemInfo{
+    display: flex;
+    gap: 12px;
+}
+.coinItemPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 6px;
+}
